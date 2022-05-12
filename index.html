@@ -9,7 +9,25 @@
     <link rel="stylesheet" href="/resources/css/styles.css">
 </head>
 <body>
-    
+    <header id="new-task">
+        <h1>To-Do list</h1>
+        <div>
+            <form id="new-task-form" onsubmit="return false">
+                <input type="text" id="new-task-input" placeholder="Enter a task">
+                <input type="submit" class="btn" id="submit" value="Submit">
+                <input type="reset" class="btn" id="reset" value="Clear">
+            </form>
+        </div>
+    </header>
+    <main>
+
+        <section class="task-list">
+            <h2>Tasks</h2>            
+            <div id="tasks">
+
+            </div>
+        </section>
+    </main>
     <script src="resources/javascript/main.js"></script>
 </body>
 </html>
