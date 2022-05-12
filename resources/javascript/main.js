@@ -16,11 +16,16 @@ a new <div> will be made with the information as well as a delete button */
             <span id="taskname">
                 ${document.querySelector('#new-task input').value}
             </span>
+
             <button class="delete">
                 Delete
             </button>
         </div>
         `;
+
+/* If the edit button is pressed, one is allowed to change the content of input */
+
+
 
 /* If the delete button is pressed, the <div> will be deleted from the code. */
 
